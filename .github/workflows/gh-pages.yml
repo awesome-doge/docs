@@ -3,7 +3,7 @@ name: Deploy Docsify to GitHub Pages
 on:
   push:
     branches:
-      - main  # 當推送到 main 分支時觸發
+      - master  # 當推送到 master 分支時觸發
 
 jobs:
   deploy:
